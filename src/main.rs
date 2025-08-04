@@ -4,5 +4,10 @@ fn main() {
         String::from("green"),
         String::from( "blue")];
 
-    let colors_iter = colors.iter();
+    let mut colors_iter = colors.iter();
+
+    println!("{:#?}", colors_iter.next());
+    println!("{:#?}", colors_iter.next());
+    println!("{:#?}", colors_iter.next());
+    println!("{:#?}", colors_iter.next());
 }
